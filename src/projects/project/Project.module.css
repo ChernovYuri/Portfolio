@@ -1,0 +1,39 @@
+.project{
+    width: 450px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.icon{
+    width: 100%;
+    height: 200px;
+    background-color: #4f4f4f;
+    position: relative;
+}
+
+.title{
+background-color: #b7b7b7;
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.description{
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.siteImg{
+    height: 100%;
+    width: 100%;
+}
