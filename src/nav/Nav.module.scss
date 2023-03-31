@@ -1,0 +1,17 @@
+@import "src/common/styles/sass/variables";
+
+.nav{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: $primaryColor;
+}
+.link:hover {
+    text-decoration: none;
+    color: $secondColor;
+}

@@ -4,7 +4,7 @@ import s from './Link.module.css'
 export const Link = (props) => {
     return (
         <div className={s.link}>
-            <img/>
+            <img className={s.icon} src={props.icon} alt={props.alt} onClick={()=>{alert(props.link)}}/>
         </div>
     );
 };
