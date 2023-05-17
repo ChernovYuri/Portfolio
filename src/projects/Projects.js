@@ -3,6 +3,8 @@ import s from './Projects.module.scss'
 import sc from '../common/styles/Container.module.css'
 import {Project} from "./project/Project";
 import {Title} from "../common/components/title/Title";
+import SocialWeb from ".././assets/projects/SocialWeb/SocialWeb.png"
+import Todolist from ".././assets/projects/Todolist/Todolist.png"
 
 export const Projects = () => {
     return (
@@ -12,14 +14,18 @@ export const Projects = () => {
                 <div className={s.projects}>
                     <Project title={'Todolist'}
                              description={'My life my rules ,my style my attitude ,you love me or hate me I don\'t care'}
-                             img={'https://raw.githubusercontent.com/TuanPham303/smart-TODO-List/development/docs/main.jpeg'}
+                             img={Todolist}
                              alt={'Todolist Site'}
-                             techs={['React', 'Redux', 'TypeScript', 'CSS']}/>
+                             techs={['React', 'Redux', 'TypeScript', 'CSS']}
+                             address={'https://chernovyuri.github.io/Todolist/'}
+                    />
                     <Project title={'Social Network'}
                              description={'My life my rules ,my style my attitude ,you love me or hate me I don\'t care'}
-                             img={'https://st.weblancer.net/download/3187469_935xp.png'}
+                             img={SocialWeb}
                              alt={'Social Network Site'}
-                             techs={['React', 'Redux', 'CSS']}/>
+                             techs={['React', 'Redux', 'CSS']}
+                             address={'https://chernovyuri.github.io/Social-Network/'}
+                    />
                 </div>
             </div>
         </div>

@@ -46,6 +46,7 @@
       -ms-transform: translate(-50%, -50%);
       background-color: $buttonBgColor;
       color: $buttonColor;
+      cursor: pointer;
 
       &:hover {
         background-color: $buttonHoverBgColor;

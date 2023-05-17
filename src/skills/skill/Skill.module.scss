@@ -11,6 +11,7 @@
     padding: 10px;
     border: 1px solid $borderColor;
     border-radius: 20px;
+    background-color: $secondBackgroundColor;
 }
 
 .icon{
@@ -30,4 +31,23 @@
     font-family: 'Inter', sans-serif;
     color: $primaryColor;
     font-size: 14px;
+}
+
+.techs {
+
+    box-sizing: border-box;
+    padding: 10px;
+    color: $primaryColor;
+    background-color: unset;
+
+    li {
+        display: inline-block;
+        padding: 0 0.5rem;
+        min-width: 5rem;
+        text-align: center;
+
+        &:not(:last-child) {
+            border-right: 1px solid $primaryColor;
+        }
+    }
 }

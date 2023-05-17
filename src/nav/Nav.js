@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './Nav.module.scss'
-import sc from '../common/styles/Container.module.css'
 
 export const Nav = () => {
     return (

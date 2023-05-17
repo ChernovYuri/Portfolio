@@ -1,7 +1,10 @@
+@import "src/common/styles/sass/variables";
+
 .skillsBlock {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    background-color: $secondBackgroundColor;
 }
 .skillsContainer {
     /*display: flex;*/

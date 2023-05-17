@@ -10,7 +10,7 @@ export const Contacts = () => {
                 <Title title={'Contact with me'}/>
                 <form className={s.contacts}>
                     <input type={'text'} className={s.input} placeholder={'Your name'}/>
-                    <input type={'text'} className={s.input} placeholder={'Your @mail'}/>
+                    <input type={'email'} className={s.input} placeholder={'Your Email'}/>
                     <textarea className={s.textarea} placeholder={'Other Information'}/>
                 </form>
                 <button type={'submit'} className={s.button}>Send</button>

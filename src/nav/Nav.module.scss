@@ -10,8 +10,10 @@
 .link{
     text-decoration: none;
     color: $primaryColor;
+    background-color: unset;
 }
 .link:hover {
-    text-decoration: none;
+        text-decoration: none;
     color: $secondColor;
+    background-color: unset;
 }

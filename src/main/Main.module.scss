@@ -4,6 +4,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
+    background-color: $backgroundColor;
 }
 
 .mainContainer {
@@ -25,8 +26,9 @@
 }
 
 .photo {
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    max-width: 90%;
+    height: 500px;
     border-radius: 20px;
     object-fit: cover;
 }

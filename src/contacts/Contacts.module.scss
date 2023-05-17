@@ -1,16 +1,17 @@
 @import "src/common/styles/sass/variables";
 
 .contactsBlock {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: $secondBackgroundColor;
 }
 .contactsContainer {
     /*display: flex;*/
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    //justify-content: space-between;
 }
 
 
@@ -27,14 +28,18 @@
 .input {
     color: $primaryColor;
     border-radius: 5px;
+    background-color: $backgroundColor;
 }
 
 .textarea {
     min-width: 100%;
     max-width: 100%;
+    height: 200px;
     max-height: border-box;
     color: $primaryColor;
     border-radius: 5px;
+    background-color: $backgroundColor;
+
 }
 
 .button{
@@ -45,9 +50,12 @@
     border-radius: 15px;
     background-color: $buttonBgColor;
     color: $buttonColor;
+    margin-top: 80px;
+    cursor: pointer;
 }
 
 .button:hover{
+    box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.8);
     background-color: $buttonHoverBgColor;
     color: $buttonHoverColor;
 }
