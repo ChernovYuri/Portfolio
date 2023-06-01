@@ -16,14 +16,14 @@ export const Projects = () => {
                              description={'My life my rules ,my style my attitude ,you love me or hate me I don\'t care'}
                              img={Todolist}
                              alt={'Todolist Site'}
-                             techs={['React', 'Redux', 'TypeScript', 'CSS']}
+                             techs={['TypeScript', 'React', 'Redux', 'Redux Toolkit', 'Router-dom', 'Axios', 'MUI', 'Formik', 'CSS']}
                              address={'https://chernovyuri.github.io/Todolist/'}
                     />
                     <Project title={'Social Network'}
                              description={'My life my rules ,my style my attitude ,you love me or hate me I don\'t care'}
                              img={SocialWeb}
                              alt={'Social Network Site'}
-                             techs={['React', 'Redux', 'CSS']}
+                             techs={['React', 'Redux', 'Redux-thunk', 'Router-dom', 'Axios', 'MUI', 'Formik', 'CSS']}
                              address={'https://chernovyuri.github.io/Social-Network/'}
                     />
                 </div>

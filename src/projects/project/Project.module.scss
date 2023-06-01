@@ -92,9 +92,10 @@
         min-width: 5rem;
         text-align: center;
 
-        &:not(:last-child) {
+        &:not(:nth-child(4)):not(:last-child) {
           border-right: 1px solid $primaryColor;
         }
+
       }
     }
   }

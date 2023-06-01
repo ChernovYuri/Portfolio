@@ -1,7 +1,8 @@
 import React from 'react'
 import s from './Main.module.scss'
 import sc from '../common/styles/Container.module.css'
-import mePhoto from '.././assets/images/me.jpg'
+import mePhoto from '.././assets/images/mePhoto.jpeg'
+
 export const Main = () => {
     return (
         <div className={s.mainBlock} id={'mainBlock'}>
