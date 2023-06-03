@@ -3,6 +3,8 @@ import s from './Footer.module.scss'
 import sc from '../common/styles/Container.module.css'
 import {Link} from "./links/Link";
 import {Title} from "../common/components/title/Title";
+import cvIcon from "../assets/icons/cvIcon256.png";
+import cv from "../assets/cv/Чернов Юрий React.pdf";
 
 export const Footer = () => {
     return (
@@ -18,6 +20,8 @@ export const Footer = () => {
                           link={'Telegram'} href={'https://t.me/ChernovYuri'}/>
                     <Link icon={'https://gcdnb.pbrd.co/images/dA8zLEuSLrZi.png?o=1'}
                           alt={'Mail'} link={'Mail'} href={'mailto:chernovxxi@gmail.com'}/>
+                    <Link icon={cvIcon}
+                          alt={'My CV'} link={'CV'} href={cv}/>
                 </div>
                 <div className={s.rights}>
                     <span>© 2023 All Rights Reserved</span>
