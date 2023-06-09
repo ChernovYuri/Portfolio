@@ -13,14 +13,14 @@ export const Projects = () => {
                 <Title title={'Projects'}/>
                 <div className={s.projects}>
                     <Project title={'Todolist'}
-                             description={'My life my rules ,my style my attitude ,you love me or hate me I don\'t care'}
+                             description={'The task manager app is a user-friendly tool that helps individuals organize tasks. It allows easy creation and tracking of to-do items. It enhances productivity and keeps users focused on their goals.'}
                              img={Todolist}
                              alt={'Todolist Site'}
                              techs={['TypeScript', 'React', 'Redux', 'Redux Toolkit', 'Router-dom', 'Axios', 'MUI', 'Formik', 'CSS']}
                              address={'https://chernovyuri.github.io/Todolist/'}
                     />
-                    <Project title={'Social Network'}
-                             description={'My life my rules ,my style my attitude ,you love me or hate me I don\'t care'}
+                    <Project title={'Social Web'}
+                             description={'The social network app allows users to create profiles with personal information and job details. They can share contacts from other social networks and follow other users.'}
                              img={SocialWeb}
                              alt={'Social Network Site'}
                              techs={['React', 'Redux', 'Redux-thunk', 'Router-dom', 'Axios', 'MUI', 'Formik', 'CSS']}

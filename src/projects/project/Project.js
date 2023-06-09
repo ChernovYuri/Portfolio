@@ -3,8 +3,6 @@ import s from './Project.module.scss';
 
 const openNewTab = (address) => {
     window.open(address, "_blank");
-    // const newTab = window.open("about:blank", "_blank");
-    // newTab.location.href = address;
 };
 
 export const Project = (props) => {
