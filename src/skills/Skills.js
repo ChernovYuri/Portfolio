@@ -8,7 +8,7 @@ import tsIcon from '.././assets/icons/tsIcon256.png'
 import cssIcon from '.././assets/icons/css3Icon256.png'
 import reduxIcon from '.././assets/icons/reduxIcon256.png'
 import storybookIcon from '.././assets/icons/storybookIcon256.png'
-import reactIcon from '.././assets/icons/react-256.png'
+import reactIcon from '.././assets/icons/reactIcon256.png'
 
 
 export const Skills = () => {
