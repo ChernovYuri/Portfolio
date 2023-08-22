@@ -8,7 +8,7 @@ import linkedinIcon from "../assets/icons/linkedinIcon256.png";
 import telegramIcon from "../assets/icons/telegramIcon256.png";
 import mailIcon from "../assets/icons/mailIcon256.png";
 import cvIcon from "../assets/icons/cvIcon256.png";
-import cv from "../assets/cv/Чернов Юрий React.pdf";
+import cv from "../assets/cv/CV Чернов Юрий React.pdf";
 
 export const Footer = () => {
     return (
